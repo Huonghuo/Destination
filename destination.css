@@ -1,0 +1,117 @@
+
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f5f8f9;
+        }
+    /*--Header*/
+        header {
+            padding: 3px;
+            text-align: center;
+            background-color: #1477d2;
+            color: white;
+            border-style: dashed;
+        }
+
+        header p {
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+	/*--Article*/
+        article {
+            float: left;
+            background-color: #f5f8f9;
+			padding:30px;
+        }
+
+        article section {
+            float: left;
+            background-color: #f5f8f9;
+            width: 100%;
+        }
+
+        article section h1 {
+            color: black;
+            margin: 5px;
+            padding: 3px;
+            font-size: 25px;
+			background-color:#9db6cf;
+			margin-bottom:20px;
+        }
+
+        article section p {
+            background-color: white;
+            padding: 8px;
+        }
+
+        article hr {
+            border: 1px solid #b6cade;
+        }
+
+        article aside {
+            float: right;
+            width: 30%;
+            padding-right: 15px;
+            margin: 10px;
+            border-style: groove;
+            border-color: #d4e4ed;
+            background-color: white;
+        }
+
+        article aside p {
+            margin: 10px;
+            padding: 5px;
+        }
+	/*--Image*/	
+		.image{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+            grid-gap: 10px;
+            align-items:center;
+            text-align:center;
+            margin-top:10px;
+			flex-direction: row;
+			float:left;
+			width:100%;
+			margin-bottom:20px;
+			padding-bottom:30px;
+			
+   }
+   .image-img img{
+   overflow: hidden;
+   display:block;
+   text-align:left;
+   float:left;
+   width:100%;
+   height:185px;
+   width:220px;
+   padding:10px;
+   background:white;
+   box-shadow: 5px 10px 30px rgb(55 55 55/15%);
+   border-radius: 4px;
+   cursor: pointer;
+   margin-bottom:15px;
+   }
+
+	/*--Footer*/
+
+        footer {
+            float: left;
+            position: fixed;
+            background-color:#1477d2;
+            width: 100%;
+            border-top: 6px solid #d4d4ed;
+            left: 0;
+            bottom: 0;
+			margin-top:20px;
+        }
+
+        footer p {
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 35px;
+        }
